@@ -116,7 +116,7 @@ jobs:
             -e SURREAL_PASSWORD=${{ secrets.SURREAL_PASSWORD }} \
             -e SURREAL_NS=${{ vars.SURREAL_NS }} \
             -e SURREAL_DB=${{ vars.SURREAL_DB }} \
-            ghcr.io/${{ github.repository_owner }}/vectorizer:main \
+            ghcr.io/${{ github.repository_owner }}/knowledge-vectorizer:main \
             --docs /docs
 ```
 
